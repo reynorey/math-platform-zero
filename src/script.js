@@ -18,7 +18,7 @@ function createProblem() {
     questionEl.textContent = problem.question; 
     feedbackEl.textContent = '' //clear feedback
     inputAnsEl.value = '' //clear answer
-
+    
     //reset variables
     inputAnsEl.disabled = false
     submitButtonEl.disabled = false
