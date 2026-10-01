@@ -1,0 +1,42 @@
+body {
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    max-width: 40rem;
+    margin: 3rem auto; 
+    padding: 1rem 1rem;
+}
+
+ h1, 
+ h2 {
+    color:rgb(4, 22, 54);
+}
+
+input[type="text"], button {
+    font-size: 1.1rem;
+    padding: 0.5rem 0.75rem; 
+    border-radius: 0.25rem; /*rounds corners*/
+}
+
+input[type="text"] {
+    border: 2px solid rgb(5, 5, 7);
+    margin-right: 0.5rem;
+}
+
+button {
+    background-color: rgb(51, 88, 198);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*visibility */
+button:hover {
+    background-color: rgb(26, 46, 108);
+}
+
+input[type="text"]:focus, button:focus {
+    outline: 3px solid rgb(1, 10, 24);
+    outline-offset: 2px;
+}
