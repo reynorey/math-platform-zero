@@ -24,7 +24,7 @@ function createProblem() {
     submitButtonEl.disabled = false
     retryButtonEl.style.display = "none"
 
-    inputAnsEl.classList.remove('correct-answer', 'incorrect.answer')
+    inputAnsEl.classList.remove('correct-answer', 'incorrect-answer')
     scoreEl.textContent = `Score: ${correctCount} / ${attemptedCount}`
 }
 
@@ -66,7 +66,7 @@ function handleRetry() {
     feedbackEl.textContent = ''
     retryButtonEl.style.display = "none"
 
-    inputAnsEl.classList.add('incorrect-answer')
+    inputAnsEl.classList.remove('incorrect-answer')
 
     inputAnsEl.focus()
 }

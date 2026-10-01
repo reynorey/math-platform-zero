@@ -43,11 +43,11 @@ input[type="text"]:focus, button:focus {
 
 /*green border on correct and red border on incorrect*/
 .correct-answer {
-    border: 3px darkgreen
-    background-color rgb(227, 255, 227)
+    border: 3px darkgreen;
+    background-color: rgb(227, 255, 227);
 }
 
 .incorrect-answer {
-    border: 3px rgb(152, 0, 0)
-    background-color rgb(254, 202, 202)
+    border: 3px rgb(152, 0, 0);
+    background-color: rgb(254, 202, 202);
 }
