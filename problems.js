@@ -6,10 +6,10 @@
         correctAnswer: 17,
         correction:[
             {   matches: (answer) => answer === 32, 
-                hint: "Multiply before dividing"
+                hint: "Multiply before adding"
             }
         ],
-        default: "PEMDAS: parentheses, exponents, multiplication/division, addition/subtration"
+        defaultHint: "PEMDAS: parentheses, exponents, multiplication/division, addition/subtraction"
         },
         //question 2
         {
@@ -20,7 +20,7 @@
                 hint: "Multiply before subtracting"
             }
         ],
-        default: "PEMDAS: parentheses, exponents, multiplication/division, addition/subtration"
+        defaultHint: "PEMDAS: parentheses, exponents, multiplication/division, addition/subtraction"
         },
         //question 3
         {
@@ -32,7 +32,7 @@
         hint: "Parenetheses before division"
         }
         ],
-        defaultHint: "PEMDAS: parentheses, exponents, multiplication/division, addition/subtration"
+        defaultHint: "PEMDAS: parentheses, exponents, multiplication/division, addition/subtraction"
         },
         //question 4
         {
@@ -44,7 +44,7 @@
         hint: "Divide and multiply from left to right"
         }
         ],
-        defaultHint: "PEMDAS: parentheses, exponents, multiplication/division, addition/subtration"
+        defaultHint: "PEMDAS: parentheses, exponents, multiplication/division, addition/subtraction"
         },
         //question 5
         {
@@ -56,7 +56,7 @@
         hint: "Multiply before adding outside of parentheses"
         }
         ],
-        defaultHint: "PEMDAS: parentheses, exponents, multiplication/division, addition/subtration"
+        defaultHint: "PEMDAS: parentheses, exponents, multiplication/division, addition/subtraction"
         },
         //question 6
         {
@@ -65,10 +65,10 @@
         correction: [
         {
         matches: (answer) => answer === 30,
-        hint: "Parantheses, division, and multiplication come before addition"
+        hint: "Parentheses, division, and multiplication come before addition"
         }
         ],
-        defaultHint: "PEMDAS: parentheses, exponents, multiplication/division, addition/subtration"
+        defaultHint: "PEMDAS: parentheses, exponents, multiplication/division, addition/subtraction"
         },
         //question 7
         {
@@ -80,7 +80,7 @@
         hint: "Multiply before adding"
         }
         ],
-        defaultHint: "PEMDAS: parentheses, exponents, multiplication/division, addition/subtration"
+        defaultHint: "PEMDAS: parentheses, exponents, multiplication/division, addition/subtraction"
         },
         //question 8
         {
@@ -92,7 +92,7 @@
         hint: "Multiply and divide before subtracting"
         }
         ],
-        defaultHint: "PEMDAS: parentheses, exponents, multiplication/division, addition/subtration"
+        defaultHint: "PEMDAS: parentheses, exponents, multiplication/division, addition/subtraction"
         }
     ]
 

@@ -4,7 +4,7 @@ body {
     line-height: 1.5;
     max-width: 40rem;
     margin: 3rem auto; 
-    padding: 1rem 1rem;
+    padding: 1rem 3rem;
 }
 
  h1, 
@@ -39,4 +39,15 @@ button:hover {
 input[type="text"]:focus, button:focus {
     outline: 3px solid rgb(1, 10, 24);
     outline-offset: 2px;
+}
+
+/*green border on correct and red border on incorrect*/
+.correct-answer {
+    border: 3px darkgreen
+    background-color rgb(227, 255, 227)
+}
+
+.incorrect-answer {
+    border: 3px rgb(152, 0, 0)
+    background-color rgb(254, 202, 202)
 }
